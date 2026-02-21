@@ -19,8 +19,8 @@ client = Client(account_sid, auth_token)
 
 
 OWM_parameters = {
-    "lat": -1.683500,
-    "lon": 29.235600,
+    "lat": MY_LAT,
+    "lon": MY_LONG,
     "appid": OWM_api_key,
     "units": "metric",
     "cnt": 4
